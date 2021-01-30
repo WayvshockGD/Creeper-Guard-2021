@@ -1,0 +1,25 @@
+{
+  "name": "creeper-guard",
+  "version": "1.0.0",
+  "description": "a bot that used for a friends server",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayvshockGD/Creeper-Guard-2021.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "wayv, spy, dead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WayvshockGD/Creeper-Guard-2021/issues"
+  },
+  "homepage": "https://github.com/WayvshockGD/Creeper-Guard-2021#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
