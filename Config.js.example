@@ -1,0 +1,19 @@
+require('dotenv').config()
+
+class Config {
+
+    constructor() {
+
+        this.prefix = process.env.PREFIX || "c!"
+
+            this.ClientOptions = {
+             fetchAllMembers: true, 
+             disableMentions: 'everyone', 
+                messageCacheMaxSize: 4, 
+                ws: { properties: { $browser: 'Discord iOS' }
+            }
+        }
+    }
+}
+
+module.exports = new Config()
